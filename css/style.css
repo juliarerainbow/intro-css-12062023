@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100;1,200;1,600&family=Lobster&family=Poppins:ital,wght@0,300;0,700;1,100&family=Tilt+Prism&display=swap');
+
+
+
+/* --- selettore per tag */
+body{
+    background-color: crimson;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* h1  {
+    background-color: blue;
+} */
+
+/* ---selettore per classe */
+.first-title{
+    font-family: 'Tilt Prism', cursive;
+
+    width:50%;
+    /* min-width: 180px;
+    max-width: 400px; */
+    height: 400px;
+    overflow: auto;
+    background-color: chartreuse;
+    
+    /* ---margin è verso l'esterno */
+    margin: 24px;
+    /*--- il padding è verso l'interno */
+    padding: 24px;
+    padding-left: 40px;
+    
+    /* ---inizia dal top in senso orario */
+    padding: 10px 20px 30px 40px;
+    /* accoppiato a due comincia con il top */
+    padding: 10px 40px;
+
+
+    /* il padding è contato come contenuto del box */
+    box-sizing: border-box;
+}
+.white-font{
+    color:white;
+}
+
+/* selettore per id */
+/* l'id è univoco e specifico, non dovrebbero esistere 2 elementi con lo stesso id. */
+#hello-title{
+    color: palevioletred;
+
+
+
+    /* border: solid ; */
+    /* border-style: dashed;
+    border-width: 30px;
+    box-sizing: border-box; */
+    border: 20px solid magenta;
+    border-radius: 30px;
+
+/* ---quando elencati il primo è il bordo sulla sinistra per continuare in senso orario */
+    border-radius: 50px 30px 40px 20px;
+}
+
+.mydiv h1{
+    border: solid;
+}
+
+/* h1,p{
+    text-transform: uppercase;
+} */
+
+.empty-div{
+    border:1px solid white;
+    width: 100%;
+    height: 400px;
+
+    /* proprietà background */
+    background-image: url("../assets/ef97bc4c42293d7c03adc584e47700b6.jpg");
+    background-image: url("../assets/MotleyFool-TMOT-75b61aa5-gettyimages-90851578.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.border
+{
+    border:2px solid white;
+}
+
+.example-div{
+    height: 20px;
+    background-color: darkorange;
+
+    /*display block non permette di avere altri elementi vicino */
+    display: block;
+
+}
+
+.example-img{
+    /* display inline-block di default */
+    width: 300px;
+    display: inline-block;
+}
+
+.example-a{
+    /* display in line block di default */
+    /* width: 300px; */
+    display: inline;
+}
+
+
+/* pagina positions */
+.scatola{
+    border:2px solid red;
+    height: 300px;
+}
+
+.s-a{
+    background-color: blue;
+}
+
+
+.s-b{
+    background-color: rgb(123, 0, 255);
+}
+
+
+.s-c{
+    background-color: fuchsia;
+}
+
+
+.s-d{
+    background-color: rgb(255, 55, 125);
+}
+
+
+.s-e{
+    background-color: rgb(255, 192, 76);
+}
+
+.s-f{
+    background-color: yellow;
+}
+
+.s-g{
+    background-color: yellowgreen;
+}
+
+.s-h{
+    background-color: green;
+}
+
+.s-i{
+    background-color: darkgreen;
+}
+
+.s-j{
+    background-color: turquoise;
+}
