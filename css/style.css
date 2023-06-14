@@ -112,6 +112,7 @@ body{
 .scatola{
     border:2px solid red;
     height: 300px;
+    top: 20px;
 }
 
 .s-a{
@@ -121,6 +122,9 @@ body{
 
 .s-b{
     background-color: rgb(123, 0, 255);
+    position:relative;
+    left: 50px;
+    top: 100px;
 }
 
 
@@ -131,27 +135,48 @@ body{
 
 .s-d{
     background-color: rgb(255, 55, 125);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    top: 100px;
+    right:50px;
 }
 
 
 .s-e{
     background-color: rgb(255, 192, 76);
+    position: relative;
 }
 
 .s-f{
     background-color: yellow;
+    width: 200px;
+    height:200px;
+    position: absolute;
+    top:100px;
+    right:100px;
 }
 
 .s-g{
     background-color: yellowgreen;
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    top:100px;
+    right:100px;
 }
 
 .s-h{
     background-color: green;
 }
 
+/* questo è come funziona solitamente il footer */
+
 .s-i{
-    background-color: darkgreen;
+    background-color: rgb(2, 130, 93);
+    position:sticky;
+    bottom:0;
 }
 
 .s-j{
